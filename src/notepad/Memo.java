@@ -91,6 +91,11 @@ public class Memo {
         }
     }
 
+    /**
+     * @Author
+     * @since
+     * @
+     */
     //메모 확인하기
     public  void list() {
         System.out.println("[메모읽기]");
@@ -132,7 +137,7 @@ public class Memo {
         }
 
         pause();
-    }
+    }//
 
     //처음 시작전 DATA값 불러오기(읽기)
     public  void load() {

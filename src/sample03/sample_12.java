@@ -4,11 +4,10 @@ public class sample_12 {
 
     public static void main(String[] args) {
         NumberObjects sample=new NumberObjects();
-
         sample.parseLong("r1024");
         sample.parseLong("1024");
         sample.printOtherBase(1024);
-        // sample.parseString(1111);
+        sample.parseString(1111);
     }
 
     public static class NumberObjects {

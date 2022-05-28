@@ -21,7 +21,11 @@ public class FileMemo {
         System.out.println("============================");
         System.out.println("         1.메모 쓰기");
         System.out.println("         2.메모 읽기");
-        System.out.println("         3.메모 삭제");
+        System.out.println("  " +
+                "" +
+                "" +
+                "" +
+                "       3.메모 삭제");
         System.out.println("         4.종료");
         System.out.println("============================");
         System.out.print("선택: ");
